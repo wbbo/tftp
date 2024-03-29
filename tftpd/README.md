@@ -1,0 +1,1 @@
+$env:GOOS = "windows"; $env:GOARCH = "amd64"; go build -ldflags="-s -w" -o tftpd/tftpd-$env:GOOS-$env:GOARCH .\tftpd\main.go
